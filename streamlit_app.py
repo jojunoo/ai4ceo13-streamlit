@@ -4,7 +4,7 @@ import os
 
 # Streamlit UI 설정
 st.set_page_config(page_title="ChatOpenAI Demo", page_icon=":robot:")
-st.header("Chatbot for Eddy")
+st.header("Chatbot2 for Eddy")
 
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
